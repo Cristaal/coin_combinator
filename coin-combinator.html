@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.11.2.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Change Combinator</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Change Combinator</h1>
+
+      <div class="form">
+        <form id="change-combinator">
+          <div class="form-group">
+          <label for="amount">Enter an amount</label>
+          <input id="amount" type="number">
+        </div>
+
+        <button type="submit" id="submit-btn" class="btn btn-large btn-success">Make Change!</button>
+      </form>
+
+      <div id="result">
+        <p>Your change is <span class="change"></span> cents</p>
+      </div>
+
+    </div>
