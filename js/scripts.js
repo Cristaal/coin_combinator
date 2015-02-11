@@ -11,6 +11,8 @@ var coinCombinator = function(amount) {
   change = amount % 100 % 50 % 25 % 10 % 5;
   var pennies = Math.floor(change / 1);
 
+  
+
   return [sacajaweaDollar, halfDollar, quarters, dimes, nickels, pennies];
 };
 
